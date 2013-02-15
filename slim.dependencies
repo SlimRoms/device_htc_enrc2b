@@ -1,0 +1,12 @@
+[
+    {
+        "repository":   "SlimRoms/proprietary_vendor_htc",
+        "target_path":  "vendor/htc",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository": "bedalus/hxore",
+        "target_path": "kernel/htc/enrc2b",
+        "branch": "blade_fork"
+    }
+]

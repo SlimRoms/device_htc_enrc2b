@@ -94,7 +94,6 @@ BOARD_HAS_SDCARD_INTERNAL := true
 COMMON_GLOBAL_CFLAGS += -DHTCLOG
 
 # Kernel / Ramdisk
-TARGET_PREBUILT_KERNEL := device/htc/enrc2b/prebuilt/kernel
 TARGET_PROVIDES_INIT_TARGET_RC := true
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 8388608
@@ -107,5 +106,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storag
 
 # Try to build the kernel
 TARGET_KERNEL_SOURCE := kernel/htc/enrc2b
+TARGET_KERNEL_CONFIG := hxore_defconfig
 
 

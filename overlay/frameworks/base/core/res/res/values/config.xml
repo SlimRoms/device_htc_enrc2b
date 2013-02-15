@@ -193,9 +193,6 @@
         <item>7</item>
     </integer-array>
 
-    <!-- Boolean indicating whether the wifi chipset has p2p support -->
-    <bool translatable="false" name="config_wifi_p2p_support">true</bool>
-
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
 
@@ -234,9 +231,5 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareKeys">7</integer>
-
-    <!-- empty string to disable, or like: /sys/kernel/fast_charge/force_fast_charge
-         it is disabled by default so devices need to add an overlay to enable-->
-    <string name="config_fastChargePath" translatable="false">/sys/devices/platform/htc_battery/fast_charge</string>
 
 </resources>
