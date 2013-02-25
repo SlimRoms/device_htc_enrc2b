@@ -215,7 +215,6 @@ lib/libscalado_htcalbum2.so
 lib/libscalado.so
 lib/libscaladoutil.so
 lib/libsensors_mpl.so
-lib/libstagefrighthw.so
 lib/libsuplhelperservicejni.so
 lib/libsupllocationprovider.so
 lib/libwvdrm_L1.so

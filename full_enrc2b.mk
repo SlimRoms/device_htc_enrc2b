@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     hostapd_cli \
     calibrator
 
+# video
+PRODUCT_PACKAGES += \
+    libstagefrighthw
+
 # lights
 PRODUCT_PACKAGES += \
     lights.tegra
